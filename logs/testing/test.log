@@ -1,0 +1,223 @@
+2013-11-22 19:51:35,686 INFO  [main] root: **************************Its a new key =foo old value=null
+2013-11-22 19:51:35,696 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:foo,value:bar,comments:PUT
+2013-11-22 19:51:35,702 INFO  [main] root: **************************Its a new key =updateTestValue old value=null
+2013-11-22 19:51:35,702 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:updateTestValue,value:initial,comments:PUT
+2013-11-22 19:51:35,703 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:updateTestValue,value:updated,comments:PUT
+2013-11-22 19:51:35,705 INFO  [main] root: **************************Its a new key =deleteTestValue old value=null
+2013-11-22 19:51:35,706 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:deleteTestValue,value:toDelete,comments:PUT
+2013-11-22 19:51:35,706 INFO  [main] root: ***********Key=deleteTestValue is removed from the Server
+2013-11-22 19:51:35,709 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 19:51:35,710 INFO  [main] root: type:get,statuscode:GET_SUCCESS,key:foo,value:bar,comments:GET_SUCCESS
+2013-11-22 19:51:35,710 INFO  [main] root: get hashmap contains keytrue
+2013-11-22 19:51:35,712 INFO  [main] root: type:get,statuscode:GET_ERROR,key:an unset value,value:null,comments:GET_ERROR
+2013-11-22 19:51:35,713 INFO  [main] root: get hashmap contains keyfalse
+2013-11-22 19:51:35,717 ERROR [main] root: KVStore | put | operation put failed as the key length is more than 20 bytes |key=Checking keyLength Case
+2013-11-22 19:51:35,719 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 21:16:08,320 INFO  [main] root: **************************Its a new key =foo old value=null
+2013-11-22 21:16:08,323 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:foo,value:bar,comments:PUT
+2013-11-22 21:16:08,326 INFO  [main] root: **************************Its a new key =updateTestValue old value=null
+2013-11-22 21:16:08,327 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:updateTestValue,value:initial,comments:PUT
+2013-11-22 21:16:08,327 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:updateTestValue,value:updated,comments:PUT
+2013-11-22 21:16:08,333 INFO  [main] root: **************************Its a new key =deleteTestValue old value=null
+2013-11-22 21:16:08,333 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:deleteTestValue,value:toDelete,comments:PUT
+2013-11-22 21:16:08,333 INFO  [main] root: ***********Key=deleteTestValue is removed from the Server
+2013-11-22 21:16:08,334 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 21:16:08,335 INFO  [main] root: type:get,statuscode:GET_SUCCESS,key:foo,value:bar,comments:GET_SUCCESS
+2013-11-22 21:16:08,336 INFO  [main] root: get hashmap contains keytrue
+2013-11-22 21:16:08,337 INFO  [main] root: type:get,statuscode:GET_ERROR,key:an unset value,value:null,comments:GET_ERROR
+2013-11-22 21:16:08,337 INFO  [main] root: get hashmap contains keyfalse
+2013-11-22 21:16:08,339 ERROR [main] root: KVStore | put | operation put failed as the key length is more than 20 bytes |key=Checking keyLength Case
+2013-11-22 21:16:08,340 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 21:17:28,599 INFO  [main] root: **************************Its a new key =foo old value=null
+2013-11-22 21:17:28,602 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:foo,value:bar,comments:PUT
+2013-11-22 21:17:28,605 INFO  [main] root: **************************Its a new key =updateTestValue old value=null
+2013-11-22 21:17:28,605 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:updateTestValue,value:initial,comments:PUT
+2013-11-22 21:17:28,605 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:updateTestValue,value:updated,comments:PUT
+2013-11-22 21:17:28,606 INFO  [main] root: **************************Its a new key =deleteTestValue old value=null
+2013-11-22 21:17:28,606 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:deleteTestValue,value:toDelete,comments:PUT
+2013-11-22 21:17:28,607 INFO  [main] root: ***********Key=deleteTestValue is removed from the Server
+2013-11-22 21:17:28,609 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 21:17:28,610 INFO  [main] root: type:get,statuscode:GET_SUCCESS,key:foo,value:bar,comments:GET_SUCCESS
+2013-11-22 21:17:28,611 INFO  [main] root: get hashmap contains keytrue
+2013-11-22 21:17:28,616 INFO  [main] root: type:get,statuscode:GET_ERROR,key:an unset value,value:null,comments:GET_ERROR
+2013-11-22 21:17:28,616 INFO  [main] root: get hashmap contains keyfalse
+2013-11-22 21:17:28,617 ERROR [main] root: KVStore | put | operation put failed as the key length is more than 20 bytes |key=Checking keyLength Case
+2013-11-22 21:17:28,619 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 21:18:27,026 INFO  [main] root: **************************Its a new key =foo old value=null
+2013-11-22 21:18:27,029 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:foo,value:bar,comments:PUT
+2013-11-22 21:18:27,032 INFO  [main] root: **************************Its a new key =updateTestValue old value=null
+2013-11-22 21:18:27,033 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:updateTestValue,value:initial,comments:PUT
+2013-11-22 21:18:27,033 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:updateTestValue,value:updated,comments:PUT
+2013-11-22 21:18:27,034 INFO  [main] root: **************************Its a new key =deleteTestValue old value=null
+2013-11-22 21:18:27,034 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:deleteTestValue,value:toDelete,comments:PUT
+2013-11-22 21:18:27,034 INFO  [main] root: ***********Key=deleteTestValue is removed from the Server
+2013-11-22 21:18:27,036 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 21:18:27,037 INFO  [main] root: type:get,statuscode:GET_SUCCESS,key:foo,value:bar,comments:GET_SUCCESS
+2013-11-22 21:18:27,037 INFO  [main] root: get hashmap contains keytrue
+2013-11-22 21:18:27,038 INFO  [main] root: type:get,statuscode:GET_ERROR,key:an unset value,value:null,comments:GET_ERROR
+2013-11-22 21:18:27,038 INFO  [main] root: get hashmap contains keyfalse
+2013-11-22 21:18:27,040 ERROR [main] root: KVStore | put | operation put failed as the key length is more than 20 bytes |key=Checking keyLength Case
+2013-11-22 21:18:27,042 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 21:19:28,330 INFO  [main] root: **************************Its a new key =foo old value=null
+2013-11-22 21:19:28,333 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:foo,value:bar,comments:PUT
+2013-11-22 21:19:28,342 INFO  [main] root: **************************Its a new key =updateTestValue old value=null
+2013-11-22 21:19:28,342 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:updateTestValue,value:initial,comments:PUT
+2013-11-22 21:19:28,342 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:updateTestValue,value:updated,comments:PUT
+2013-11-22 21:19:28,343 INFO  [main] root: **************************Its a new key =deleteTestValue old value=null
+2013-11-22 21:19:28,344 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:deleteTestValue,value:toDelete,comments:PUT
+2013-11-22 21:19:28,344 INFO  [main] root: ***********Key=deleteTestValue is removed from the Server
+2013-11-22 21:19:28,345 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 21:19:28,346 INFO  [main] root: type:get,statuscode:GET_SUCCESS,key:foo,value:bar,comments:GET_SUCCESS
+2013-11-22 21:19:28,346 INFO  [main] root: get hashmap contains keytrue
+2013-11-22 21:19:28,347 INFO  [main] root: type:get,statuscode:GET_ERROR,key:an unset value,value:null,comments:GET_ERROR
+2013-11-22 21:19:28,347 INFO  [main] root: get hashmap contains keyfalse
+2013-11-22 21:19:28,348 ERROR [main] root: KVStore | put | operation put failed as the key length is more than 20 bytes |key=Checking keyLength Case
+2013-11-22 21:19:28,350 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 21:49:56,185 INFO  [main] root: **************************Its a new key =foo old value=null
+2013-11-22 21:49:56,190 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:foo,value:bar,comments:PUT
+2013-11-22 21:49:56,193 INFO  [main] root: **************************Its a new key =updateTestValue old value=null
+2013-11-22 21:49:56,193 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:updateTestValue,value:initial,comments:PUT
+2013-11-22 21:49:56,194 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:updateTestValue,value:updated,comments:PUT
+2013-11-22 21:49:56,196 INFO  [main] root: **************************Its a new key =deleteTestValue old value=null
+2013-11-22 21:49:56,196 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:deleteTestValue,value:toDelete,comments:PUT
+2013-11-22 21:49:56,197 INFO  [main] root: ***********Key=deleteTestValue is removed from the Server
+2013-11-22 21:49:56,201 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 21:49:56,202 INFO  [main] root: type:get,statuscode:GET_SUCCESS,key:foo,value:bar,comments:GET_SUCCESS
+2013-11-22 21:49:56,202 INFO  [main] root: get hashmap contains keytrue
+2013-11-22 21:49:56,206 INFO  [main] root: type:get,statuscode:GET_ERROR,key:an unset value,value:null,comments:GET_ERROR
+2013-11-22 21:49:56,207 INFO  [main] root: get hashmap contains keyfalse
+2013-11-22 21:49:56,209 ERROR [main] root: KVStore | put | operation put failed as the key length is more than 20 bytes |key=Checking keyLength Case
+2013-11-22 21:49:56,211 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 21:51:17,746 INFO  [main] root: **************************Its a new key =foo old value=null
+2013-11-22 21:51:17,749 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:foo,value:bar,comments:PUT
+2013-11-22 21:51:17,752 INFO  [main] root: **************************Its a new key =updateTestValue old value=null
+2013-11-22 21:51:17,752 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:updateTestValue,value:initial,comments:PUT
+2013-11-22 21:51:17,753 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:updateTestValue,value:updated,comments:PUT
+2013-11-22 21:51:17,754 INFO  [main] root: **************************Its a new key =deleteTestValue old value=null
+2013-11-22 21:51:17,754 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:deleteTestValue,value:toDelete,comments:PUT
+2013-11-22 21:51:17,754 INFO  [main] root: ***********Key=deleteTestValue is removed from the Server
+2013-11-22 21:51:17,755 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 21:51:17,757 INFO  [main] root: type:get,statuscode:GET_SUCCESS,key:foo,value:bar,comments:GET_SUCCESS
+2013-11-22 21:51:17,757 INFO  [main] root: get hashmap contains keytrue
+2013-11-22 21:51:17,758 INFO  [main] root: type:get,statuscode:GET_ERROR,key:an unset value,value:null,comments:GET_ERROR
+2013-11-22 21:51:17,758 INFO  [main] root: get hashmap contains keyfalse
+2013-11-22 21:51:17,760 ERROR [main] root: KVStore | put | operation put failed as the key length is more than 20 bytes |key=Checking keyLength Case
+2013-11-22 21:51:17,761 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 21:59:59,296 INFO  [main] root: **************************Its a new key =foo old value=null
+2013-11-22 21:59:59,308 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:foo,value:bar,comments:PUT
+2013-11-22 21:59:59,312 INFO  [main] root: **************************Its a new key =updateTestValue old value=null
+2013-11-22 21:59:59,312 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:updateTestValue,value:initial,comments:PUT
+2013-11-22 21:59:59,312 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:updateTestValue,value:updated,comments:PUT
+2013-11-22 21:59:59,313 INFO  [main] root: **************************Its a new key =deleteTestValue old value=null
+2013-11-22 21:59:59,314 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:deleteTestValue,value:toDelete,comments:PUT
+2013-11-22 21:59:59,314 INFO  [main] root: ***********Key=deleteTestValue is removed from the Server
+2013-11-22 21:59:59,315 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 21:59:59,317 INFO  [main] root: type:get,statuscode:GET_SUCCESS,key:foo,value:bar,comments:GET_SUCCESS
+2013-11-22 21:59:59,317 INFO  [main] root: get hashmap contains keytrue
+2013-11-22 21:59:59,321 INFO  [main] root: type:get,statuscode:GET_ERROR,key:an unset value,value:null,comments:GET_ERROR
+2013-11-22 21:59:59,321 INFO  [main] root: get hashmap contains keyfalse
+2013-11-22 21:59:59,322 ERROR [main] root: KVStore | put | operation put failed as the key length is more than 20 bytes |key=Checking keyLength Case
+2013-11-22 21:59:59,322 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 22:00:35,675 INFO  [main] root: **************************Its a new key =foo old value=null
+2013-11-22 22:00:35,679 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:foo,value:bar,comments:PUT
+2013-11-22 22:00:35,683 INFO  [main] root: **************************Its a new key =updateTestValue old value=null
+2013-11-22 22:00:35,683 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:updateTestValue,value:initial,comments:PUT
+2013-11-22 22:00:35,684 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:updateTestValue,value:updated,comments:PUT
+2013-11-22 22:00:35,687 INFO  [main] root: **************************Its a new key =deleteTestValue old value=null
+2013-11-22 22:00:35,687 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:deleteTestValue,value:toDelete,comments:PUT
+2013-11-22 22:00:35,687 INFO  [main] root: ***********Key=deleteTestValue is removed from the Server
+2013-11-22 22:00:35,690 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 22:00:35,691 INFO  [main] root: type:get,statuscode:GET_SUCCESS,key:foo,value:bar,comments:GET_SUCCESS
+2013-11-22 22:00:35,691 INFO  [main] root: get hashmap contains keytrue
+2013-11-22 22:00:35,694 INFO  [main] root: type:get,statuscode:GET_ERROR,key:an unset value,value:null,comments:GET_ERROR
+2013-11-22 22:00:35,694 INFO  [main] root: get hashmap contains keyfalse
+2013-11-22 22:00:35,696 ERROR [main] root: KVStore | put | operation put failed as the key length is more than 20 bytes |key=Checking keyLength Case
+2013-11-22 22:00:35,698 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 22:01:50,552 INFO  [main] root: **************************Its a new key =foo old value=null
+2013-11-22 22:01:50,591 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:foo,value:bar,comments:PUT
+2013-11-22 22:01:50,594 INFO  [main] root: **************************Its a new key =updateTestValue old value=null
+2013-11-22 22:01:50,594 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:updateTestValue,value:initial,comments:PUT
+2013-11-22 22:01:50,594 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:updateTestValue,value:updated,comments:PUT
+2013-11-22 22:01:50,595 INFO  [main] root: **************************Its a new key =deleteTestValue old value=null
+2013-11-22 22:01:50,595 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:deleteTestValue,value:toDelete,comments:PUT
+2013-11-22 22:01:50,596 INFO  [main] root: ***********Key=deleteTestValue is removed from the Server
+2013-11-22 22:01:50,597 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 22:01:50,598 INFO  [main] root: type:get,statuscode:GET_SUCCESS,key:foo,value:bar,comments:GET_SUCCESS
+2013-11-22 22:01:50,598 INFO  [main] root: get hashmap contains keytrue
+2013-11-22 22:01:50,599 INFO  [main] root: type:get,statuscode:GET_ERROR,key:an unset value,value:null,comments:GET_ERROR
+2013-11-22 22:01:50,600 INFO  [main] root: get hashmap contains keyfalse
+2013-11-22 22:01:50,601 ERROR [main] root: KVStore | put | operation put failed as the key length is more than 20 bytes |key=Checking keyLength Case
+2013-11-22 22:01:50,601 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 22:02:41,059 INFO  [main] root: **************************Its a new key =foo old value=null
+2013-11-22 22:02:41,063 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:foo,value:bar,comments:PUT
+2013-11-22 22:02:41,066 INFO  [main] root: **************************Its a new key =updateTestValue old value=null
+2013-11-22 22:02:41,066 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:updateTestValue,value:initial,comments:PUT
+2013-11-22 22:02:41,066 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:updateTestValue,value:updated,comments:PUT
+2013-11-22 22:02:41,068 INFO  [main] root: **************************Its a new key =deleteTestValue old value=null
+2013-11-22 22:02:41,068 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:deleteTestValue,value:toDelete,comments:PUT
+2013-11-22 22:02:41,068 INFO  [main] root: ***********Key=deleteTestValue is removed from the Server
+2013-11-22 22:02:41,069 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 22:02:41,071 INFO  [main] root: type:get,statuscode:GET_SUCCESS,key:foo,value:bar,comments:GET_SUCCESS
+2013-11-22 22:02:41,071 INFO  [main] root: get hashmap contains keytrue
+2013-11-22 22:02:41,073 INFO  [main] root: type:get,statuscode:GET_ERROR,key:an unset value,value:null,comments:GET_ERROR
+2013-11-22 22:02:41,073 INFO  [main] root: get hashmap contains keyfalse
+2013-11-22 22:02:41,074 ERROR [main] root: KVStore | put | operation put failed as the key length is more than 20 bytes |key=Checking keyLength Case
+2013-11-22 22:02:41,075 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 22:02:53,154 INFO  [main] root: **************************Its a new key =foo old value=null
+2013-11-22 22:02:53,158 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:foo,value:bar,comments:PUT
+2013-11-22 22:02:53,165 INFO  [main] root: **************************Its a new key =updateTestValue old value=null
+2013-11-22 22:02:53,165 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:updateTestValue,value:initial,comments:PUT
+2013-11-22 22:02:53,166 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:updateTestValue,value:updated,comments:PUT
+2013-11-22 22:02:53,167 INFO  [main] root: **************************Its a new key =deleteTestValue old value=null
+2013-11-22 22:02:53,167 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:deleteTestValue,value:toDelete,comments:PUT
+2013-11-22 22:02:53,167 INFO  [main] root: ***********Key=deleteTestValue is removed from the Server
+2013-11-22 22:02:53,168 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 22:02:53,169 INFO  [main] root: type:get,statuscode:GET_SUCCESS,key:foo,value:bar,comments:GET_SUCCESS
+2013-11-22 22:02:53,170 INFO  [main] root: get hashmap contains keytrue
+2013-11-22 22:02:53,171 INFO  [main] root: type:get,statuscode:GET_ERROR,key:an unset value,value:null,comments:GET_ERROR
+2013-11-22 22:02:53,171 INFO  [main] root: get hashmap contains keyfalse
+2013-11-22 22:02:53,172 ERROR [main] root: KVStore | put | operation put failed as the key length is more than 20 bytes |key=Checking keyLength Case
+2013-11-22 22:02:53,172 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 22:03:18,677 INFO  [main] root: **************************Its a new key =foo old value=null
+2013-11-22 22:03:18,682 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:foo,value:bar,comments:PUT
+2013-11-22 22:03:18,685 INFO  [main] root: **************************Its a new key =updateTestValue old value=null
+2013-11-22 22:03:18,685 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:updateTestValue,value:initial,comments:PUT
+2013-11-22 22:03:18,686 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:updateTestValue,value:updated,comments:PUT
+2013-11-22 22:03:18,687 INFO  [main] root: **************************Its a new key =deleteTestValue old value=null
+2013-11-22 22:03:18,687 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:deleteTestValue,value:toDelete,comments:PUT
+2013-11-22 22:03:18,688 INFO  [main] root: ***********Key=deleteTestValue is removed from the Server
+2013-11-22 22:03:18,690 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 22:03:18,691 INFO  [main] root: type:get,statuscode:GET_SUCCESS,key:foo,value:bar,comments:GET_SUCCESS
+2013-11-22 22:03:18,691 INFO  [main] root: get hashmap contains keytrue
+2013-11-22 22:03:18,694 INFO  [main] root: type:get,statuscode:GET_ERROR,key:an unset value,value:null,comments:GET_ERROR
+2013-11-22 22:03:18,694 INFO  [main] root: get hashmap contains keyfalse
+2013-11-22 22:03:18,695 ERROR [main] root: KVStore | put | operation put failed as the key length is more than 20 bytes |key=Checking keyLength Case
+2013-11-22 22:03:18,696 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 22:05:19,792 INFO  [main] root: **************************Its a new key =foo old value=null
+2013-11-22 22:05:19,796 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:foo,value:bar,comments:PUT
+2013-11-22 22:05:19,799 INFO  [main] root: **************************Its a new key =updateTestValue old value=null
+2013-11-22 22:05:19,799 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:updateTestValue,value:initial,comments:PUT
+2013-11-22 22:05:19,800 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:updateTestValue,value:updated,comments:PUT
+2013-11-22 22:05:19,801 INFO  [main] root: **************************Its a new key =deleteTestValue old value=null
+2013-11-22 22:05:19,802 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:deleteTestValue,value:toDelete,comments:PUT
+2013-11-22 22:05:19,802 INFO  [main] root: ***********Key=deleteTestValue is removed from the Server
+2013-11-22 22:05:19,808 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 22:05:19,809 INFO  [main] root: type:get,statuscode:GET_SUCCESS,key:foo,value:bar,comments:GET_SUCCESS
+2013-11-22 22:05:19,809 INFO  [main] root: get hashmap contains keytrue
+2013-11-22 22:05:19,812 INFO  [main] root: type:get,statuscode:GET_ERROR,key:an unset value,value:null,comments:GET_ERROR
+2013-11-22 22:05:19,812 INFO  [main] root: get hashmap contains keyfalse
+2013-11-22 22:05:32,455 INFO  [main] root: **************************Its a new key =foo old value=null
+2013-11-22 22:05:32,458 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:foo,value:bar,comments:PUT
+2013-11-22 22:05:32,462 INFO  [main] root: **************************Its a new key =updateTestValue old value=null
+2013-11-22 22:05:32,462 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:updateTestValue,value:initial,comments:PUT
+2013-11-22 22:05:32,463 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:updateTestValue,value:updated,comments:PUT
+2013-11-22 22:05:32,464 INFO  [main] root: **************************Its a new key =deleteTestValue old value=null
+2013-11-22 22:05:32,465 INFO  [main] root: type:put,statuscode:PUT_SUCCESS,key:deleteTestValue,value:toDelete,comments:PUT
+2013-11-22 22:05:32,465 INFO  [main] root: ***********Key=deleteTestValue is removed from the Server
+2013-11-22 22:05:32,467 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT
+2013-11-22 22:05:32,469 INFO  [main] root: type:get,statuscode:GET_SUCCESS,key:foo,value:bar,comments:GET_SUCCESS
+2013-11-22 22:05:32,469 INFO  [main] root: get hashmap contains keytrue
+2013-11-22 22:05:32,471 INFO  [main] root: type:get,statuscode:GET_ERROR,key:an unset value,value:null,comments:GET_ERROR
+2013-11-22 22:05:32,471 INFO  [main] root: get hashmap contains keyfalse
+2013-11-22 22:05:32,473 ERROR [main] root: KVStore | put | operation put failed as the key length is more than 20 bytes |key=Checking keyLength Case
+2013-11-22 22:05:32,474 INFO  [main] root: type:put,statuscode:PUT_UPDATE,key:foo,value:bar,comments:PUT

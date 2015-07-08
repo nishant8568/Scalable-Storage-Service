@@ -14,8 +14,8 @@ public class AllTests {
 
 	static {
 		try {
-			new LogSetup("logs/testing/test.log", Level.ERROR);
-			new KVServer(50000);
+			new LogSetup("logs/testing/test.log", Level.INFO);
+			new KVServer(10000);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
